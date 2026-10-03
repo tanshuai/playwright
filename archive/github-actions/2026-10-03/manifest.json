@@ -1,0 +1,505 @@
+{
+  "schema_version": 1,
+  "repository": "tanshuai/playwright",
+  "repository_id": 426951498,
+  "date": "2026-10-03",
+  "source_sha": "9622704a8a88e2de5b7a29f2660c4617112a9fac",
+  "entries": [
+    {
+      "original_path": ".github/workflows/infra.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/infra.yml",
+      "source_blob_sha": "fd67d4f5217b1fed35ec47e7af444430ce5b9c8c",
+      "sha256": "4832bab6c14c0d3fb431709f7be9b48b42a72436e2210cbcb0c1f88cbb8b7dba",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from microsoft/playwright",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-006",
+        "CFG-017"
+      ],
+      "secret_names": [],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/package_create_playwright.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/package_create_playwright.yml",
+      "source_blob_sha": "e3c134a1a644cc82ee554865cb87ed0b2647b53b",
+      "sha256": "cf2e6568692267b1c13354b490191ec6df9a54ada4f4d6b14a818a0ba50242c0",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from microsoft/playwright",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-006",
+        "CFG-025"
+      ],
+      "secret_names": [],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/pr_check_client_side_changes.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/pr_check_client_side_changes.yml",
+      "source_blob_sha": "1cb5d4946647465780619436460eff4a3ded3e9d",
+      "sha256": "73a8938ab87203b20997940adc71a5399d1636bf4d7e5434a6257757238af4c2",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from microsoft/playwright",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-017"
+      ],
+      "secret_names": [
+        "GH_SERVICE_ACCOUNT_TOKEN"
+      ],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/publish_canary.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/publish_canary.yml",
+      "source_blob_sha": "c127951888f12018c4973bac3606306f1a048444",
+      "sha256": "e6b403538687290e4fdf1bf7d591b54a2d117cdf7c9bf83a759e2db8ddf3aee4",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from microsoft/playwright",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-017",
+        "CFG-034"
+      ],
+      "secret_names": [
+        "GH_SERVICE_ACCOUNT_TOKEN",
+        "NPM_TOKEN",
+        "REPOSITORY_DISPATCH_PERSONAL_ACCESS_TOKEN"
+      ],
+      "external_entrypoint_types": [
+        "workflow_dispatch"
+      ],
+      "local_dependency_paths": [
+        "package.json"
+      ],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/publish_canary_driver.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/publish_canary_driver.yml",
+      "source_blob_sha": "c0307d3bae7a3eae8bbe3ce6cb15fddcaa318f9f",
+      "sha256": "d4791ada726092b15dc728595e78c55a09986cb2ef92d07d1cecf0632d43176e",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from microsoft/playwright",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-017"
+      ],
+      "secret_names": [
+        "AZ_ACCOUNT_KEY",
+        "AZ_ACCOUNT_NAME"
+      ],
+      "external_entrypoint_types": [
+        "workflow_dispatch"
+      ],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/publish_release.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/publish_release.yml",
+      "source_blob_sha": "3feab744f8ed1f906e9c53f8a686364db42c29b0",
+      "sha256": "f124374c7d68566a4d2ecfa640a6c1b8e09a36426d19761aa73d5ab5be34d68a",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from microsoft/playwright",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-017",
+        "CFG-034"
+      ],
+      "secret_names": [
+        "AZ_ACCOUNT_KEY",
+        "AZ_ACCOUNT_NAME",
+        "GH_SERVICE_ACCOUNT_TOKEN",
+        "NPM_TOKEN",
+        "REPOSITORY_DISPATCH_PERSONAL_ACCESS_TOKEN"
+      ],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [
+        "package.json"
+      ],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/roll_browser_into_playwright.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/roll_browser_into_playwright.yml",
+      "source_blob_sha": "5702179c3daea7bcfe88adc64e929e20b23841df",
+      "sha256": "6c14af8bc368155ff2d0a303d6c519c9c897e8c4b22a48d186f9507384b6155b",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from microsoft/playwright",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-008",
+        "CFG-017"
+      ],
+      "secret_names": [],
+      "external_entrypoint_types": [
+        "repository_dispatch"
+      ],
+      "local_dependency_paths": [
+        "utils/roll_browser.js"
+      ],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/roll_chromium_build.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/roll_chromium_build.yml",
+      "source_blob_sha": "2f366ce713ce47fd5b98d6f8aecf4af7d3a059fb",
+      "sha256": "887ac9732c5d99ce5aceb430dd2414c7bfc3b52746ccd2bcdcfc26a6bde6bbc8",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from microsoft/playwright",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-008",
+        "CFG-017"
+      ],
+      "secret_names": [],
+      "external_entrypoint_types": [
+        "workflow_dispatch"
+      ],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/tests_docker.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/tests_docker.yml",
+      "source_blob_sha": "8bbf527cfa740d39bcaa0ac9e6fa9ca7825c92ab",
+      "sha256": "26b69802456d514f5fc8e21529c8463d50ede7d9d6bdd8cde20d532bb641b737",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from microsoft/playwright",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-001",
+        "CFG-006",
+        "CFG-017"
+      ],
+      "secret_names": [
+        "FLAKINESS_CONNECTION_STRING"
+      ],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [
+        "utils/upload_flakiness_dashboard.sh"
+      ],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/tests_fyi.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/tests_fyi.yml",
+      "source_blob_sha": "875e20bf2f05077ea1810f263a5b912698a41126",
+      "sha256": "9b4cdf454aba22ebbdcd4dfd2af423c27fe8bf536f5f05fde7b7f2767fb9336a",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from microsoft/playwright",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-001",
+        "CFG-017"
+      ],
+      "secret_names": [
+        "FLAKINESS_CONNECTION_STRING"
+      ],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [
+        "utils/upload_flakiness_dashboard.sh"
+      ],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/tests_primary.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/tests_primary.yml",
+      "source_blob_sha": "780c62c8493ccc56467f2473cfd0ce667b8aba2a",
+      "sha256": "f22e12198305103a9f3483d853c4e8ce33d3abc8552e157bf685399068f10fdc",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from microsoft/playwright",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-001",
+        "CFG-006",
+        "CFG-017"
+      ],
+      "secret_names": [
+        "FLAKINESS_CONNECTION_STRING"
+      ],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [
+        "utils/upload_flakiness_dashboard.sh"
+      ],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/tests_secondary.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/tests_secondary.yml",
+      "source_blob_sha": "0ec876031411164c6ea40b465c532c30ce2c0b5d",
+      "sha256": "2ad60ac55d7a194c14b2eb574dea538693c05a12f8fa4be12a2253ede9fe33ba",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from microsoft/playwright",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-001",
+        "CFG-006",
+        "CFG-017"
+      ],
+      "secret_names": [
+        "FLAKINESS_CONNECTION_STRING"
+      ],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [
+        "utils/upload_flakiness_dashboard.sh"
+      ],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/trigger_build_chromium.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/trigger_build_chromium.yml",
+      "source_blob_sha": "0fec2b46f7e140a446a224ec0b04934b1c640b1a",
+      "sha256": "5223487b0e50273f46b59f3d6d558198502d8b0b0b3ec80644399986045ec18d",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from microsoft/playwright",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-017",
+        "CFG-034"
+      ],
+      "secret_names": [
+        "REPOSITORY_DISPATCH_PERSONAL_ACCESS_TOKEN"
+      ],
+      "external_entrypoint_types": [
+        "workflow_dispatch"
+      ],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/trigger_build_chromium_with_symbols.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/trigger_build_chromium_with_symbols.yml",
+      "source_blob_sha": "3085303ed6132dbe669876649a28ea2f9d6880a6",
+      "sha256": "63c1722e642bb4515e18dadd058db0a7d925d31025befc34325b8a369df17b27",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from microsoft/playwright",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-017",
+        "CFG-034"
+      ],
+      "secret_names": [
+        "REPOSITORY_DISPATCH_PERSONAL_ACCESS_TOKEN"
+      ],
+      "external_entrypoint_types": [
+        "workflow_dispatch"
+      ],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/trigger_build_deprecated_webkit_mac_10.14.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/trigger_build_deprecated_webkit_mac_10.14.yml",
+      "source_blob_sha": "5be83a97eecdf1b1d7ca134126089fdd7150d1d1",
+      "sha256": "2a6863da15f008fefd687ad543e9859735beb63d9dec949cbbad297ab86de0be",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from microsoft/playwright",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-017",
+        "CFG-034"
+      ],
+      "secret_names": [
+        "REPOSITORY_DISPATCH_PERSONAL_ACCESS_TOKEN"
+      ],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/trigger_build_ffmpeg.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/trigger_build_ffmpeg.yml",
+      "source_blob_sha": "987b5f935e8bc091cbd70738195011c051ca9946",
+      "sha256": "97cf38e70b7fc89651ac4ab99b24ac14a975c4642e2a29fff5a05a413eab48f3",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from microsoft/playwright",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-017",
+        "CFG-034"
+      ],
+      "secret_names": [
+        "REPOSITORY_DISPATCH_PERSONAL_ACCESS_TOKEN"
+      ],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/trigger_build_firefox.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/trigger_build_firefox.yml",
+      "source_blob_sha": "bad8806c7120020f1cc1b64ef2a4d077d1054bcf",
+      "sha256": "a15d51495add23da883a733e805456f53770453d5e489c75d1c3408cbc731838",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from microsoft/playwright",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-017",
+        "CFG-034"
+      ],
+      "secret_names": [
+        "REPOSITORY_DISPATCH_PERSONAL_ACCESS_TOKEN"
+      ],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/trigger_build_firefox_beta.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/trigger_build_firefox_beta.yml",
+      "source_blob_sha": "e3a08094fbd94777622010bea722f441ab532662",
+      "sha256": "1e9a546d029997026dfc2f3ea793e6392060df9f886431aee9d094e42b05d455",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from microsoft/playwright",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-017",
+        "CFG-034"
+      ],
+      "secret_names": [
+        "REPOSITORY_DISPATCH_PERSONAL_ACCESS_TOKEN"
+      ],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/trigger_build_webkit.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/trigger_build_webkit.yml",
+      "source_blob_sha": "22e69c0ff8ad2749aa36228d1b37624c132d514f",
+      "sha256": "8c750151f09eb5c46bbe52aa1fb10378594761539f02fc577b3515b6aad0b2fc",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from microsoft/playwright",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-017",
+        "CFG-034"
+      ],
+      "secret_names": [
+        "REPOSITORY_DISPATCH_PERSONAL_ACCESS_TOKEN"
+      ],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/trigger_build_winldd.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/trigger_build_winldd.yml",
+      "source_blob_sha": "4d45987240f302a21e251eb93477912f43d83acd",
+      "sha256": "f7968422321e699c8d316737a3aa5697e43a5b14a4a86bce602734e352d197d6",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from microsoft/playwright",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-017",
+        "CFG-034"
+      ],
+      "secret_names": [
+        "REPOSITORY_DISPATCH_PERSONAL_ACCESS_TOKEN"
+      ],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/trigger_tests.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/trigger_tests.yml",
+      "source_blob_sha": "d130c40550d4de8b8c568c45d3e4915b10a4f247",
+      "sha256": "730cacfb2c8f6c102d9c5cbaf5b9ff458c6a9924639e0ba966d43619e577e152",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from microsoft/playwright",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-017",
+        "CFG-034"
+      ],
+      "secret_names": [
+        "REPOSITORY_DISPATCH_PERSONAL_ACCESS_TOKEN"
+      ],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    }
+  ],
+  "code_and_dependency_snapshots": [
+    {
+      "original_path": "package-lock.json",
+      "archived_path": "archive/github-actions/2026-10-03/package-lock.json",
+      "source_blob_sha": "34a0b6f56a56450c8b33b45b1cb8ca466d18d6d5",
+      "sha256": "92cbd9cf2d470e42ac4487a8e09cc3511469a9a37d7caf6c253f82771728448a",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": "package.json",
+      "archived_path": "archive/github-actions/2026-10-03/package.json",
+      "source_blob_sha": "05e15c6ef614d418e10e64d874244bc62844c210",
+      "sha256": "3decd559e58659629d3df44f2947ba33512b447187e8c84c49e22b8d14516ff7",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": "utils/roll_browser.js",
+      "archived_path": "archive/github-actions/2026-10-03/utils/roll_browser.js",
+      "source_blob_sha": "44d9bce9673abef0e9a036d93565a2c0156dc643",
+      "sha256": "a2a5602e7ae3f8022ddc1789166dcca544e280f95a3d67eb357567d129c53801",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": "utils/upload_flakiness_dashboard.sh",
+      "archived_path": "archive/github-actions/2026-10-03/utils/upload_flakiness_dashboard.sh",
+      "source_blob_sha": "caab4cfa37757470b03f86a5d4707f5d08f1bf9b",
+      "sha256": "b447d31474a88e55475bc875cd4e874aae83dd76878c06cd9e50d0d038e835a0",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    }
+  ],
+  "upstream_preflight": {
+    "parent": "microsoft/playwright",
+    "source_sha": "9622704a8a88e2de5b7a29f2660c4617112a9fac",
+    "ahead_by": 0,
+    "behind_by": 11712,
+    "status": "behind",
+    "retained_runs": 0,
+    "semantic_note": "Current entrypoints reviewed individually; only inherited upstream CI/tests/releases/doc generators, no custom fork commits or live production consumer identified. No repository Actions enabling or passive alert changes."
+  },
+  "caller_check": {
+    "current_all_accessible_workflows": 286,
+    "remaining_reusable_callers": [],
+    "external_dispatch_note": "Declared dispatch/manual entrypoints recorded; entire retired source preserved. No dispatch APIs were invoked."
+  },
+  "passive_security_alerts": "No alert setting changed. Archived version-update YAML is no longer active configuration.",
+  "rollback": "Reviewed source restoration plus explicit workflow enablement; for unsafe cross-repository publishers establish an updated producer/consumer contract and guarded destination before restoring."
+}
